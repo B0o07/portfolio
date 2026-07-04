@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saulo | Python & Web Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #334155; }
+        .cursor-blink { animation: blink 1s step-end infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- HERO SECTION -->
+    <section class="min-h-[80vh] flex flex-col justify-center items-center px-6 max-w-4xl mx-auto text-center relative">
+        <div class="space-y-6">
+            <span class="px-3 py-1 text-xs font-mono tracking-widest text-emerald-400 bg-emerald-500/10 rounded-full border border-emerald-500/20 uppercase">
+                Python & Automation Specialist
+            </span>
+            
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white min-h-[120px] md:min-h-[80px] flex justify-center flex-wrap items-center gap-2">
+                <span class="text-emerald-500 font-mono text-4xl md:text-6xl">></span>
+                <span id="typewriter" data-text="Automating Workflows & Building Modern Web Solutions" class="bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent"></span>
+                <span class="text-emerald-500 font-mono text-4xl md:text-6xl cursor-blink">_</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto font-normal leading-relaxed mt-4">
+                Hi, I'm <span class="text-emerald-400 font-semibold">Saulo</span>. I build custom Python web scrapers, intelligent chat bots, and high-performance websites to help your business scale faster.
+            </p>
+            
+            <!-- Botões Principais -->
+            <div class="pt-6 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://br.fiverr.com/naot3mn1ck?public_mode=true" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-slate-950 bg-emerald-400 hover:bg-emerald-300 transition-all duration-200 rounded-lg shadow-lg shadow-emerald-500/20 hover:scale-105 font-semibold w-full sm:w-auto">
+                    View My Fiverr Profile
+                </a>
+                <a href="#gigs" class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-slate-800 hover:bg-slate-700 transition-all duration-200 rounded-lg hover:scale-105 w-full sm:w-auto">
+                    See My Services
+                </a>
+            </div>
+
+            <!-- Ícones Sociais (GitHub e LinkedIn) -->
+            <div class="pt-4 flex gap-6 justify-center items-center text-slate-500">
+                <!-- GitHub -->
+                <a href="https://github.com/B0o07" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 hover:scale-110 transition-all duration-300" title="GitHub">
+                    <span class="sr-only">GitHub</span>
+                    <svg class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/saulo-weslen/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 hover:scale-110 transition-all duration-300" title="LinkedIn">
+                    <span class="sr-only">LinkedIn</span>
+                    <svg class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED GIGS SECTION -->
+    <section id="gigs" class="py-20 px-6 max-w-6xl mx-auto border-t border-slate-900">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold tracking-tight text-white mb-2">My Featured Gigs</h2>
+            <p class="text-slate-400">Ready-to-order services specialized in Python automation and Web Development.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- GIG 1: CHAT BOTS -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-xl hover:border-emerald-500/50 transition-all duration-300 flex flex-col overflow-hidden group shadow-lg">
+                <div class="p-8 flex-grow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-3xl">🤖</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Custom Telegram, Slack or Discord Bot</h3>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Automate community management, build custom commands, integrate APIs, and send real-time notifications to your favorite chat apps tailored specifically for your business logic.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-2 mt-auto">
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Python</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">API</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Bots</span>
+                    </div>
+                </div>
+                <div class="p-4 border-t border-slate-800 bg-slate-950/50">
+                    <a href="https://br.fiverr.com/naot3mn1ck/build-a-custom-telegram-slack-or-discord-bot-for-your-business?ref_ctx_id=b9dfb9ebbde245a59a1811bc505ae225&pckg_id=1&source=seller_page" target="_blank" rel="noopener noreferrer" 
+                       class="flex items-center justify-between w-full text-emerald-400 hover:text-emerald-300 font-semibold transition-colors">
+                        <span>Order on Fiverr</span>
+                        <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- GIG 2: WEB SCRAPER -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-xl hover:border-emerald-500/50 transition-all duration-300 flex flex-col overflow-hidden group shadow-lg">
+                <div class="p-8 flex-grow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-3xl">🕷️</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Custom Python Web Scraper</h3>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Need data from a website? I will build robust, anti-block scripts using Selenium or BeautifulSoup to extract, clean, and export the data you need (CSV, JSON, DB).
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-2 mt-auto">
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Scraping</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Selenium</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Data</span>
+                    </div>
+                </div>
+                <div class="p-4 border-t border-slate-800 bg-slate-950/50">
+                    <a href="https://br.fiverr.com/naot3mn1ck/build-a-custom-python-web-scraper-for-your-data-needs?ref_ctx_id=b9dfb9ebbde245a59a1811bc505ae225&pckg_id=1&source=seller_page" target="_blank" rel="noopener noreferrer" 
+                       class="flex items-center justify-between w-full text-emerald-400 hover:text-emerald-300 font-semibold transition-colors">
+                        <span>Order on Fiverr</span>
+                        <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- GIG 3: WEB DEVELOPMENT -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-xl hover:border-emerald-500/50 transition-all duration-300 flex flex-col overflow-hidden group shadow-lg">
+                <div class="p-8 flex-grow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-3xl">💻</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Modern Landing Page & Website</h3>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Looking for a clean, fast, and responsive website like this one? I build modern landing pages, personal portfolios, and web apps tailored to highlight your brand and convert visitors.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-2 mt-auto">
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Frontend</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">TailwindCSS</span>
+                        <span class="px-2 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded">Python Backend</span>
+                    </div>
+                </div>
+                <div class="p-4 border-t border-slate-800 bg-slate-950/50">
+                    <a href="https://br.fiverr.com/naot3mn1ck?public_mode=true" target="_blank" rel="noopener noreferrer" 
+                       class="flex items-center justify-between w-full text-slate-400 hover:text-emerald-400 font-semibold transition-colors">
+                        <span>Gig Coming Soon - View Profile</span>
+                        <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-10 text-center text-xs text-slate-600 border-t border-slate-900 bg-slate-950">
+        <div class="flex justify-center gap-6 mb-4">
+            <a href="https://github.com/B0o07" target="_blank" class="hover:text-emerald-400 transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/saulo-weslen/" target="_blank" class="hover:text-emerald-400 transition-colors">LinkedIn</a>
+            <a href="https://br.fiverr.com/naot3mn1ck?public_mode=true" target="_blank" class="hover:text-emerald-400 transition-colors">Fiverr</a>
+        </div>
+        <p>&copy; 2026 Saulo Weslen (@naot3mn1ck). Python & Web Developer.</p>
+    </footer>
+
+    <!-- SCRIPT DO EFEITO DE MÁQUINA DE ESCREVER (TERMINAL) -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const typewriterElement = document.getElementById("typewriter");
+            const textToType = typewriterElement.getAttribute("data-text");
+            let currentIndex = 0;
+            const typingSpeed = 50; 
+
+            function type() {
+                if (currentIndex < textToType.length) {
+                    typewriterElement.textContent += textToType.charAt(currentIndex);
+                    currentIndex++;
+                    setTimeout(type, typingSpeed);
+                }
+            }
+
+            setTimeout(type, 500);
+        });
+    </script>
+</body>
+</html>
